@@ -1,6 +1,10 @@
-export default function About(){
+import Link from "next/link"
 
-    return(
-        <h1>About Page</h1>
-    )
+export default function About() {
+
+    return (
+        <>
+            <h1>About Page</h1>
+            <Link href="/product">Go to product page</Link>
+        </>)
 }
